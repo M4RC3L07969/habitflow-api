@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "HabitFlow API funcionando!"}
+    return {"message": "HabitFlow API is working!!"}
